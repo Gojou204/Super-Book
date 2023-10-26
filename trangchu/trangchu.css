@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+}
+.top-header{
+    background-color: #0c6;
+    width: 100%;
+    padding: 5px 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    margin-right: 150px;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.top-header input{
+    width: 430px;
+    height: 30px;
+}
+.taikhoan-giohang{
+    margin-left: 130px;
+}
+.taikhoan{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.taikhoan:hover{
+    color: black;
+    background-color: #fff;
+}
+.giohang{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.giohang:hover{
+    color: black;
+    background-color: #fff;
+}
+/* END TOP-HEADER */
+
+.danhmucsp{
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 0 250px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.danhmucsp h2{
+    font-size: 14px;
+    padding: 5px 5px;
+    background-color: #fff;
+    margin-right: 700px;
+}
+/* END Danhmucsp */
+
+.menu-banner{
+    padding: 0 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-sp ul{
+    list-style-type: none;
+    min-height: 400px;
+    width: 210px;
+    top: 32px;
+    left: 0;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: #fff;
+}
+.menu-sp ul li{
+    padding: 10px 5px;
+}
+.menu-sp ul a{
+    text-decoration: none;
+    color: #000;
+    font-size: small; 
+}
+.menu-sp ul li:hover{
+    background-color: #0c6;
+    color: #fff;
+    padding-left: 15px;
+    transition: all 0.2s ease-in;
+}
+/* END HEADER */
+
+main{
+    width: 1000px;
+    height: auto;
+    display: table;
+    justify-content: center;
+    margin: 0 250px;
+}
+.row-sp{
+    width: 100%;
+    height: 390px;
+}
+main h2 {
+    background-color: #f2f2f2;
+    height: 35px;
+}
+.danhmuc{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #0c6;
+    color: #fff;
+    align-items: center;
+    padding: 7px 20px;
+}
+.seeall{
+    text-decoration: none;
+    font-size: 13px;
+    float: right;
+    padding: 10px 20px;
+    font-weight: lighter;
+    color: #000;
+}
+.seeall:hover{
+    color: #0c6;
+    text-decoration: underline;
+}
+
+
+
+
