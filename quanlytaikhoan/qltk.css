@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+}
+.top-header{
+    background-color: #0c6;
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    margin-right: 155px;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+.top-header input{
+    width: 450px;
+    height: 35px;
+}
+.taikhoan-giohang{
+    margin-left: 130px;
+}
+.taikhoan{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.taikhoan:hover{
+    color: black;
+    background-color: #fff;
+}
+.giohang{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.giohang:hover{
+    color: black;
+    background-color: #fff;
+}
+/* END TOP-HEADER */
+
+.danhmucsp{
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.danhmucsp h2{
+    font-size: 14px;
+    padding: 5px 5px;
+    background-color: #fff;
+    margin-right: 730px;
+}
+/* END Danhmucsp */
+
+.menu-banner{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.menu-sp ul{
+    list-style-type: none;
+    min-height: 377px;
+    width: 230px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: #fff;
+}
+.menu-sp ul li{
+    padding: 10px 0;
+}
+.menu-sp ul a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px; 
+}
+.menu-sp ul li:hover{
+    background-color: #0c6;
+    color: #fff;
+    padding-left: 15px;
+    transition: all 0.2s ease-in;
+}
+/* END HEADER */
+
+main{
+    width: 1100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.row-sp{
+    width: 100%;
+    height: 390px;
+}
+main h2 {
+    background-color: #f2f2f2;
+    height: 35px;
+}
+.danhmuc{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #0c6;
+    color: #fff;
+    align-items: center;
+    padding: 7px 20px;
+}
+.seeall{
+    text-decoration: none;
+    font-size: 13px;
+    float: right;
+    padding: 10px 20px;
+    font-weight: lighter;
+    color: #000;
+}
+.seeall:hover{
+    color: #0c6;
+    text-decoration: underline;
+}
+table tr{
+    width: 1100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.item-sp{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+.item-sp img{
+    margin-top: 30px;
+}
+.item-sp .ten-sp{
+    text-decoration: none;
+    color: #0c6;
+    font-size: 16px;
+}
+.item-sp .ten-sp:hover{
+    color: rgb(223, 0, 223);
+}
+.item-sp .tac-gia{
+    text-decoration: none;
+    color: #0c6;
+    font-size: 12px;
+    font-weight: 700;
+}
+.item-sp .tac-gia:hover{
+    color: rgb(52, 0, 52);
+}
+.item-sp .price-sp{
+    font-weight: bold;
+}
+
+/* END MAIN */
+
+footer{
+    width: 1100px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: -90px;
+    margin-bottom: 100px;
+}
+.logo-footer{
+    font-weight: bold;
+    font-size: 30px;
+    color: #0c6;
+    text-decoration: none;
+}
+.column-footer{
+    margin: 0 20px;
+    list-style-type: none;
+}
+.column-footer h1{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.column-footer li a{
+    text-decoration: none;
+    color: #000;
+}
+.column-footer li a:hover{
+    text-decoration: underline;
+}
+.column-footer i{
+    font-size: 25px;
+}
+
+article{
+    height: 600px;
+    
+}
+aside {
+    background-color: mistyrose ;
+    margin-left: 230px;
+    margin-top: 100px;
+    width: 250px;
+    height: 350px;
+    float: left;
+}
+aside h2{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.tkid{
+    margin-top: 15px;
+}
+.tk li{
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.id li{
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.tk{
+    float: left;
+    padding-right:  40px;
+    border-right: 1px solid #000;
+}
+.id{
+    float: right;
+    margin-right: 30px;
+}
+.chucnang{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.tttk li{
+    margin-top: 10px;
+    list-style: none;
+}
+.lsmh li{
+    margin-top: 20px;
+    list-style: none;
+}
+.ttdh li{
+    margin-top: 20px;
+    list-style: none;
+}
+.dmk li{
+    margin-top: 20px;
+    list-style: none;
+    margin-bottom: 30px;
+}
+.tttk li a{
+    text-decoration: none;
+    color: #000;
+}
+.lsmh li a{
+    text-decoration: none;
+    color: #000;
+}
+.ttdh li a{
+    text-decoration: none;
+    color: #000;
+}
+.dmk li a{
+    text-decoration: none;
+    color: #000;
+}
+.chucnang a:hover{
+    color: #ff0000;
+}
+section{
+    background-color: mistyrose;
+    float: right;
+    width: 800px;
+    height: 600px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+section h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+section img {
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.thongtin{
+    margin-top: 100px;
+    list-style: none;
+    margin-left: 20px;
+}
+.ten{
+    margin-bottom: 20px;
+}
+.email{
+    margin-bottom: 20px;
+}
+.sdt{
+    margin-bottom: 20px;
+}
+.msv{
+    margin-bottom: 20px;
+}
+.vt{
+    margin-bottom: 20px;
+}
